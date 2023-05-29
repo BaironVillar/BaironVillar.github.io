@@ -2744,16 +2744,40 @@ textarea.form-control {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.btn-cv {
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 8rem;
+  height: 4rem;
+  color: #212529;
+  background-color: crimson;
+  font-family: 'Baloo Paaji', cursive;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     -webkit-transition: none;
     transition: none;
+  }
+
+  .btn-cv {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 8rem;
+    height: 4rem;
+    background-color: crimson;
+    font-family: 'Baloo Paaji', cursive;
   }
 }
 
 .btn:hover {
   color: #212529;
   text-decoration: none;
+}
+
+.btn-cv:hover {
+  background-color: rgb(184, 25, 57);
 }
 
 .btn:focus, .btn.focus {
@@ -12088,7 +12112,7 @@ pre .code {
 
 .header .header-content .header-title .up {
   font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
-  font-weight: 500;
+  font-weight: 5  00;
   color: #444;
   margin-bottom: 5px;
   position: relative;
@@ -12106,8 +12130,8 @@ pre .code {
   font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
   letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
-  margin-top: -10px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .header .header-content .btn {
